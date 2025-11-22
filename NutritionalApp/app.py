@@ -10,7 +10,8 @@ from PIL import Image
 # ----------------------------------------------------
 # LOAD DATA
 # ----------------------------------------------------
-base_path = "data"
+base_path = os.path.join(os.path.dirname(__file__), "data")
+
 group_files = [
     "FOOD-DATA-GROUP1.csv",
     "FOOD-DATA-GROUP2.csv",
